@@ -24,6 +24,16 @@
 
 ---
 
+## 📸 Application Snaps
+
+### 1. Multi-Symptom Selection & Clinical Scenario Presets
+![Symptom Selection Interface](snaps/symptom_selection.png)
+
+### 2. Clinical Diagnostic Dossier & Probabilistic Analysis
+![Diagnostic Dossier Output](snaps/diagnostic_dossier.png)
+
+---
+
 ## 📊 High-Level System Architecture
 
 ```mermaid
