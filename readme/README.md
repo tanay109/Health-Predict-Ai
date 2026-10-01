@@ -7,10 +7,10 @@
 [![Dataset](https://img.shields.io/badge/Dataset-132%20Symptoms%20%7C%2041%20Pathologies-10B981.svg)]()
 [![Accuracy](https://img.shields.io/badge/Benchmark%20Accuracy-100%25-emerald.svg)]()
 [![License](https://img.shields.io/badge/License-MIT-purple.svg)]()
-[![Live Application](https://img.shields.io/badge/🌐%20Public%20Live%20App-health--predict--ai.streamlit.app-0284C7?style=for-the-badge&logo=streamlit&logoColor=white)](https://health-predict-ai.streamlit.app)
+[![Live Application](https://img.shields.io/badge/🌐%20Public%20Live%20App-Streamlit%20Cloud-0284C7?style=for-the-badge&logo=streamlit&logoColor=white)](https://health-predict-ai-fv8nam9zrwu4rv6hvuzye4.streamlit.app/)
 
-> 🔗 **Live Public Application Link:** **[https://health-predict-ai.streamlit.app](https://health-predict-ai.streamlit.app)**  
-> *(Zero installation required — anyone with this link can access and use the diagnostic engine directly from any mobile or desktop web browser. The underlying GitHub repository remains private.)*
+> 🔗 **Live Public Application Link:** **[https://health-predict-ai-fv8nam9zrwu4rv6hvuzye4.streamlit.app/](https://health-predict-ai-fv8nam9zrwu4rv6hvuzye4.streamlit.app/)**  
+> *(24/7 Cloud Hosted — anyone with this link can access and use the diagnostic engine directly from any mobile or desktop web browser without opening VS Code or a local server. The underlying GitHub repository remains private.)*
 
 > **Author & Developer:** **Prateek Shukla** (Roll No: **2400320100828**)  
 > **Academic Degree:** Bachelor of Technology (B.Tech in Computer Science & Engineering)  
@@ -185,8 +185,9 @@ disease_predictor/
 
 ### 🌐 Instant Public Web Access (No Installation Required)
 Anyone can test and interact with the live clinical AI directly via the web:
-- **Public Web Application:** [https://health-predict-ai.streamlit.app](https://health-predict-ai.streamlit.app)
+- **Public Web Application:** [https://health-predict-ai-fv8nam9zrwu4rv6hvuzye4.streamlit.app/](https://health-predict-ai-fv8nam9zrwu4rv6hvuzye4.streamlit.app/)
 - *Features:* Real-time inference (< 50ms), 132-symptom search autocomplete, 41 pathology benchmarks, and differential diagnostic cards.
+- *Server Status:* 24/7 Cloud Hosted (Always online, zero local runtime needed).
 
 ---
 
