@@ -1,0 +1,20 @@
+# Virtual Environment (Do not push to GitHub)
+venv/
+env/
+.venv/
+ENV/
+
+# Python Cache & Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Temporary build artifacts
+srs_print.html
+*.tmp
+
+# Operating System files
+.DS_Store
+Thumbs.db
+desktop.ini
