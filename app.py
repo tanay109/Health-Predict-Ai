@@ -1,6 +1,7 @@
 import streamlit as st
 import numpy as np
 import joblib
+import os
 
 # 1. Page Configuration
 st.set_page_config(
@@ -218,11 +219,18 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # 3. Load Model Assets
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+MODEL_DIR = os.path.join(BASE_DIR, "model")
+
 @st.cache_resource
 def load_assets():
-    model = joblib.load("model/symptom_model.pkl")
-    symptoms = joblib.load("model/symptoms_list.pkl")
-    symptom_map = joblib.load("model/disease_symptoms_map.pkl")
+    model_path = os.path.join(MODEL_DIR, "symptom_model.pkl") if os.path.exists(os.path.join(MODEL_DIR, "symptom_model.pkl")) else "model/symptom_model.pkl"
+    symptoms_path = os.path.join(MODEL_DIR, "symptoms_list.pkl") if os.path.exists(os.path.join(MODEL_DIR, "symptoms_list.pkl")) else "model/symptoms_list.pkl"
+    symptom_map_path = os.path.join(MODEL_DIR, "disease_symptoms_map.pkl") if os.path.exists(os.path.join(MODEL_DIR, "disease_symptoms_map.pkl")) else "model/disease_symptoms_map.pkl"
+    
+    model = joblib.load(model_path)
+    symptoms = joblib.load(symptoms_path)
+    symptom_map = joblib.load(symptom_map_path)
     return model, symptoms, symptom_map
 
 try:
